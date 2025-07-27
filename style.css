@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+}
+
+.navbar {
+  background: gold;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #1c1c1c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar button {
+  background: gold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+}
